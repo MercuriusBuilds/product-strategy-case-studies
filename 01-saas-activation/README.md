@@ -1,110 +1,198 @@
 # SaaS Activation — Product Strategy Case Study
 
+> **Portfolio case study — hypothetical example**
+
 ## 1. Problem
 
-New SaaS users are signing up, but a significant portion do not reach the product's first-value moment.
+New users are signing up for a SaaS product, but a significant percentage are not reaching the product's first-value moment.
 
-The objective is to understand the reasons for low activation and identify opportunities to improve the onboarding experience.
+The product team wants to understand where users are dropping off, why this is happening, and which product opportunities could improve activation.
 
-> Note: This is a hypothetical product case study created for demonstration purposes.
+---
 
-## 2. Product Goal
+## 2. Product Objective
 
-Increase the percentage of new users who reach the first-value moment during their initial product experience.
+Increase the percentage of new users who reach the product's first-value moment during their initial experience.
+
+### Business impact
+
+Improved activation can potentially contribute to:
+
+- Higher trial-to-paid conversion
+- Better customer retention
+- Increased product adoption
+- Lower customer acquisition waste
+
+---
 
 ## 3. Customer Problem
 
-Users may experience:
+Potential user challenges include:
 
-- Unclear onboarding
-- Too many setup steps
-- Difficulty understanding product value
-- Lack of guidance
-- Uncertainty about what to do next
+- Too many onboarding steps
+- Unclear product value
+- Difficulty understanding what to do next
+- Complex initial setup
+- Lack of contextual guidance
+- Users reaching the product without understanding the key workflow
 
-## 4. Discovery
+---
 
-Key questions:
+## 4. Discovery Questions
 
-- What prevents users from completing onboarding?
-- Where do users drop off?
-- What actions correlate with long-term retention?
-- How quickly do successful users reach their first-value moment?
+Before designing a solution, I would investigate:
 
-## 5. Funnel
+1. Where do users drop off?
+2. Which onboarding steps have the highest abandonment?
+3. What actions do activated users complete?
+4. How long does it take successful users to reach first value?
+5. Are there meaningful differences between customer segments?
+6. Which behaviors correlate with retention?
 
-Example funnel:
+---
 
-Sign Up  
-↓  
-Complete Profile  
-↓  
-Create First Project  
-↓  
-Invite Team Member  
-↓  
-Complete First Key Action  
-↓  
+## 5. User Journey
+
+```text
+Sign Up
+   ↓
+Create Account
+   ↓
+Complete Setup
+   ↓
+Create First Project
+   ↓
+Complete Key Action
+   ↓
+Experience First Value
+   ↓
 Activated User
+```
+
+---
 
 ## 6. Hypotheses
 
 ### Hypothesis 1
 
-Reducing onboarding complexity will improve completion rates.
+Reducing unnecessary onboarding steps will increase onboarding completion.
 
 ### Hypothesis 2
 
-Showing users the product's core value earlier will improve activation.
+Helping users reach the core value proposition earlier will improve activation.
 
 ### Hypothesis 3
 
-Contextual guidance will reduce onboarding drop-off.
+Contextual guidance during the first session will reduce user confusion and abandonment.
 
-## 7. Proposed Solution
+---
 
-A simplified onboarding experience that:
+## 7. Opportunity Areas
 
-1. Reduces unnecessary setup steps
-2. Guides users toward the first-value action
-3. Provides contextual recommendations
-4. Measures activation behavior
+### Opportunity 1 — Simplify onboarding
 
-## 8. Success Metrics
+Remove or defer information that is not required to experience the core product value.
 
-**Primary metric**
+### Opportunity 2 — Accelerate time-to-value
 
-Activation rate
+Guide users directly toward the most valuable first action.
 
-**Secondary metrics**
+### Opportunity 3 — Contextual guidance
+
+Provide relevant guidance based on the user's stage and behavior rather than presenting generic instructions.
+
+---
+
+## 8. Proposed Product Direction
+
+I would explore a simplified onboarding experience built around the user's first meaningful outcome.
+
+The experience could include:
+
+- Reduced initial setup
+- Clearer value proposition
+- Guided first action
+- Contextual recommendations
+- Progress indicators
+- Behavioral analytics
+
+---
+
+## 9. Success Metrics
+
+### Primary metric
+
+**Activation Rate**
+
+Percentage of new users reaching the defined first-value event.
+
+### Secondary metrics
 
 - Time to first value
 - Onboarding completion
 - Day-7 retention
-- Feature adoption
+- Core feature adoption
+- Trial-to-paid conversion
 
-**Guardrail metrics**
+### Guardrail metrics
 
 - Support requests
 - Error rate
 - Trial cancellation
+- User satisfaction
 
-## 9. Experiment
+---
 
-Compare:
+## 10. Experiment
 
-**Control:** Existing onboarding
+### Control
 
-**Variant:** Simplified onboarding
+Existing onboarding experience.
 
-Measure the difference in activation and downstream retention.
+### Variant
 
-## 10. Product Decision
+Simplified onboarding focused on reaching the first-value moment.
 
-If the experiment produces a meaningful improvement without negatively affecting guardrail metrics, roll out the new onboarding experience gradually.
+### Primary evaluation
 
-## 11. Key Product Learnings
+Compare activation rates between control and variant.
 
-The goal is not simply to increase onboarding completion.
+### Additional evaluation
 
-The goal is to help customers reach meaningful product value as quickly and effectively as possible.
+Analyze the effect on:
+
+- Time to first value
+- Retention
+- Feature adoption
+- Conversion
+
+---
+
+## 11. Rollout Strategy
+
+If the experiment demonstrates a meaningful improvement without negatively affecting guardrail metrics:
+
+1. Roll out to a small percentage of users.
+2. Monitor product and business metrics.
+3. Expand rollout gradually.
+4. Continue monitoring retention and downstream conversion.
+
+---
+
+## 12. Key Product Principle
+
+The objective is not simply to make users complete onboarding.
+
+The objective is to help users **experience meaningful product value as quickly as possible**.
+
+---
+
+## 13. Next Questions
+
+Further analysis would investigate:
+
+- Which customer segments have the lowest activation?
+- Which behaviors predict long-term retention?
+- Does activation differ between self-serve and enterprise customers?
+- Which onboarding steps can be removed entirely?
+- Can personalization further improve activation?
